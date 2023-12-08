@@ -1,2 +1,4 @@
-# hello.R
-print("Hello, world!")
+printMessage <- function(message) {
+  print(paste("Message:", message))
+}
+printMessage("Hello, world!")
